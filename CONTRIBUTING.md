@@ -9,4 +9,4 @@
    Make sure to add yourself to *CONTRIBUTORS*.
 
 Otherwise, if you simply wants to suggest a feature or report a bug, create an issue :
-https://github.com/interagent/schematic/issues
+https://github.com/kaneshin/schematic/issues

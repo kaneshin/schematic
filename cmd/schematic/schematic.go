@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/interagent/schematic"
+	"github.com/kaneshin/schematic"
 )
 
 var output = flag.String("o", "", "Ouput file")
@@ -68,7 +68,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	code, err := s.Generate()
+	code, err := Generate(&s)
 	if err != nil {
 		log.Fatal(err)
 	}
